@@ -5,6 +5,9 @@ using namespace std;
 #define Max_Business_Seats 10
 #define Airport_Size 10
 
+//Checking??
+
+
 class Flight
 {
     char Flight_Number[6];
