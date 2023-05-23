@@ -1,0 +1,19 @@
+|TICKET INFORMATION:
+
+Name: df sd
+Phone: 87644
+Address: wnfjnwf,sad
+Passport Number: 34fd3
+Origin: LONDON
+Destination: DELHI
+Food: Non Vegetarian
+Number of Seats: 34
+Class: Business
+Date of departure: 12032023
+Time: 4.00 PM
+Ticket: HF630
+Bill(in pakistani rupees): 584666/-
+
+|STATUS CONFIRMED
+
+Pick'n Drop: NO
