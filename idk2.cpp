@@ -200,6 +200,153 @@ void Database(Flight_Details F[])
     F[8].Economy_Cost = 54999;
     F[8].Business_Cost = F[2].Economy_Cost + 14000;
 
+    // Reverse routes of existing flights
+
+    strcpy(F[9].Flight_Number,"6E0432");
+    strcpy(F[9].Flight_Company,"Indigo");
+    strcpy(F[9].Source,"DELHI");
+    strcpy(F[9].Destination,"MUMBAI");
+    strcpy(F[9].Flight_Type,"Domestic");
+    F[9].Date_Of_Journey.day = 25;
+    F[9].Date_Of_Journey.month = 11;
+    F[9].Date_Of_Journey.year = 2023;
+    strcpy(F[9].Departure_Time,"11:45");
+    strcpy(F[9].Arrival_Time,"14:05");
+    strcpy(F[9].Duration,"2:20");
+    F[9].Economy_Seats_Available = 20;
+    F[9].Business_Seats_Available = 3;
+    F[9].Economy_Cost = 25999;
+    F[9].Business_Cost = F[9].Economy_Cost + 7000;
+
+    strcpy(F[10].Flight_Number,"AI6521");
+    strcpy(F[10].Flight_Company,"Air India");
+    strcpy(F[10].Source,"BANGALORE");
+    strcpy(F[10].Destination,"CHENNAI");
+    strcpy(F[10].Flight_Type,"Domestic");
+    F[10].Date_Of_Journey.day = 26;
+    F[10].Date_Of_Journey.month = 3;
+    F[10].Date_Of_Journey.year = 2023;
+    strcpy(F[10].Departure_Time,"09:15");
+    strcpy(F[10].Arrival_Time,"10:40");
+    strcpy(F[10].Duration,"1:25");
+    F[10].Economy_Seats_Available = 35;
+    F[10].Business_Seats_Available = 2;
+    F[10].Economy_Cost = 22999;
+    F[10].Business_Cost = F[10].Economy_Cost + 7000;
+
+    strcpy(F[11].Flight_Number,"G80934");
+    strcpy(F[11].Flight_Company,"Go Air");
+    strcpy(F[11].Source,"DELHI");
+    strcpy(F[11].Destination,"BANGALORE");
+    strcpy(F[11].Flight_Type,"Domestic");
+    F[11].Date_Of_Journey.day = 15;
+    F[11].Date_Of_Journey.month = 6;
+    F[11].Date_Of_Journey.year = 2023;
+    strcpy(F[11].Departure_Time,"18:20");
+    strcpy(F[11].Arrival_Time,"21:00");
+    strcpy(F[11].Duration,"2:40");
+    F[11].Economy_Seats_Available = 55;
+    F[11].Business_Seats_Available = 6;
+    F[11].Economy_Cost = 27999;
+    F[11].Business_Cost = F[11].Economy_Cost + 7000;
+
+    strcpy(F[12].Flight_Number,"AI7139");
+    strcpy(F[12].Flight_Company,"Air India");
+    strcpy(F[12].Source,"CHENNAI");
+    strcpy(F[12].Destination,"MUMBAI");
+    strcpy(F[12].Flight_Type,"Domestic");
+    F[12].Date_Of_Journey.day = 20;
+    F[12].Date_Of_Journey.month = 12;
+    F[12].Date_Of_Journey.year = 2023;
+    strcpy(F[12].Departure_Time,"16:00");
+    strcpy(F[12].Arrival_Time,"17:25");
+    strcpy(F[12].Duration,"1:25");
+    F[12].Economy_Seats_Available = 11;
+    F[12].Business_Seats_Available = 0;
+    F[12].Economy_Cost = 22999;
+    F[12].Business_Cost = F[12].Economy_Cost + 7000;
+
+    strcpy(F[13].Flight_Number,"AX6609");
+    strcpy(F[13].Flight_Company,"Air India Express");
+    strcpy(F[13].Source,"BANGALORE");
+    strcpy(F[13].Destination,"MUMBAI");
+    strcpy(F[13].Flight_Type,"Domestic");
+    F[13].Date_Of_Journey.day = 9;
+    F[13].Date_Of_Journey.month = 10;
+    F[13].Date_Of_Journey.year = 2023;
+    strcpy(F[13].Departure_Time,"12:35");
+    strcpy(F[13].Arrival_Time,"14:00");
+    strcpy(F[13].Duration,"1:25");
+    F[13].Economy_Seats_Available = 38;
+    F[13].Business_Seats_Available = 4;
+    F[13].Economy_Cost = 27999;
+    F[13].Business_Cost = F[13].Economy_Cost + 7000;
+
+    strcpy(F[14].Flight_Number,"SQ8559");
+    strcpy(F[14].Flight_Company,"Singapore Airlines");
+    strcpy(F[14].Source,"SINGAPORE");
+    strcpy(F[14].Destination,"BANGALORE");
+    strcpy(F[14].Flight_Type,"International");
+    F[14].Date_Of_Journey.day = 26;
+    F[14].Date_Of_Journey.month = 1;
+    F[14].Date_Of_Journey.year = 2024;
+    strcpy(F[14].Departure_Time,"20:15");
+    strcpy(F[14].Arrival_Time,"02:25");
+    strcpy(F[14].Duration,"6:10");
+    F[14].Economy_Seats_Available = 71;
+    F[14].Business_Seats_Available = 8;
+    F[14].Economy_Cost = 54999;
+    F[14].Business_Cost = F[14].Economy_Cost + 14000;
+
+    strcpy(F[15].Flight_Number,"QF9834");
+    strcpy(F[15].Flight_Company,"Qantas");
+    strcpy(F[15].Source,"LONDON");
+    strcpy(F[15].Destination,"DELHI");
+    strcpy(F[15].Flight_Type,"International");
+    F[15].Date_Of_Journey.day = 10;
+    F[15].Date_Of_Journey.month = 10;
+    F[15].Date_Of_Journey.year = 2023;
+    strcpy(F[15].Departure_Time,"14:45");
+    strcpy(F[15].Arrival_Time,"22:40");
+    strcpy(F[15].Duration,"7:55");
+    F[15].Economy_Seats_Available = 10;
+    F[15].Business_Seats_Available = 2;
+    F[15].Economy_Cost = 68999;
+    F[15].Business_Cost = F[15].Economy_Cost + 14000;
+
+    strcpy(F[16].Flight_Number,"BA9190");
+    strcpy(F[16].Flight_Company,"British Airways");
+    strcpy(F[16].Source,"LONDON");
+    strcpy(F[16].Destination,"DELHI");
+    strcpy(F[16].Flight_Type,"International");
+    F[16].Date_Of_Journey.day = 7;
+    F[16].Date_Of_Journey.month = 11;
+    F[16].Date_Of_Journey.year = 2023;
+    strcpy(F[16].Departure_Time,"15:45");
+    strcpy(F[16].Arrival_Time,"23:20");
+    strcpy(F[16].Duration,"7:35");
+    F[16].Economy_Seats_Available = 22;
+    F[16].Business_Seats_Available = 3;
+    F[16].Economy_Cost = 64999;
+    F[16].Business_Cost = F[16].Economy_Cost + 14000;
+
+    strcpy(F[17].Flight_Number,"LH7994");
+    strcpy(F[17].Flight_Company,"Lufthansa");
+    strcpy(F[17].Source,"BERLIN");
+    strcpy(F[17].Destination,"DELHI");
+    strcpy(F[17].Flight_Type,"International");
+    F[17].Date_Of_Journey.day = 15;
+    F[17].Date_Of_Journey.month = 11;
+    F[17].Date_Of_Journey.year = 2023;
+    strcpy(F[17].Departure_Time,"18:20");
+    strcpy(F[17].Arrival_Time,"04:45");
+    strcpy(F[17].Duration,"10:25");
+    F[17].Economy_Seats_Available = 15;
+    F[17].Business_Seats_Available = 1;
+    F[17].Economy_Cost = 70999;
+    F[17].Business_Cost = F[17].Economy_Cost + 14000;
+
+
 }
 
 class Passenger_Details
@@ -275,7 +422,7 @@ void Ticket_Booking::Checking_Database_And_Final_Booking(Flight_Details F[])
     int counter1=0;
     char flight_choice;
     int seat_choice;
-    for(int i=0;i<9;i++)
+    for(int i=0;i<17;i++)
     {
         if((strcmp(F[i].Source,User_Source)==0)&&(strcmp(F[i].Destination,User_Destination)==0))
         {
@@ -399,7 +546,7 @@ void Routes::Table_Printing(Flight_Details F[])
     cout<<setw(15)<<"Duration";
     cout<<endl;
 
-    for(int i=0;i<9;i++)
+    for(int i=0;i<17;i++)
     {
         Print_Database(F[i]);
         cout<<endl;
